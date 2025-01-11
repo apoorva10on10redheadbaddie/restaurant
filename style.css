@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff7eb3, #ff758c, #ff6347);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero.jpg');
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.main-btn {
+    padding: 12px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.main-btn:hover {
+    background-color: #ff4500;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+/* Menu Section */
+.menu-item {
+    text-align: center;
+    background-color: #ffe0e9;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+/* Gallery Section */
+.gallery-images img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Reservation Form */
+form input,
+form textarea {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: #ff4500;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
